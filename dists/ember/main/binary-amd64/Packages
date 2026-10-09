@@ -1,0 +1,209 @@
+Package: base-files
+Version: 13.8+deb13u6+kernora1
+Architecture: amd64
+Essential: yes
+Maintainer: Kernora Developers <developers@kernora.invalid>
+Installed-Size: 353
+Pre-Depends: awk
+Breaks: debian-security-support (<< 2019.04.25), initscripts (<< 2.88dsf-13.3), sendfile (<< 2.1b.20080616-5.2~)
+Replaces: base, dpkg (<= 1.15.0), miscutils
+Provides: base, usr-is-merged
+Filename: pool/main/b/base-files/base-files_13.8+deb13u6+kernora1_amd64.deb
+Size: 73952
+MD5sum: 4f2d6f5cbe20e96b58f6a87489c65355
+SHA1: e8e5ebe92ddb5734c5a877ad43f4b8a7ee578d08
+SHA256: 9687050ce4af0962909c01435b9598faa05b2081c220eb275fbc331806ef9992
+Section: admin
+Priority: required
+Multi-Arch: foreign
+Description: Kernora OS base system miscellaneous files
+ This package contains the basic filesystem hierarchy of a Kernora system, and
+ several important miscellaneous files, such as /etc/debian_version,
+ /etc/host.conf, /etc/issue, /etc/motd, /etc/profile, and others,
+ and the text of several common licenses. Kernora OS is derived from Debian.
+Original-Maintainer: Santiago Vila <sanvila@debian.org>
+
+Package: calamares
+Version: 3.3.14-1kernora1
+Architecture: amd64
+Maintainer: Jonathan Carter <jcc@debian.org>
+Installed-Size: 11084
+Depends: os-prober, libc6 (>= 2.34), libcrypt1 (>= 1:4.1.0), libgcc-s1 (>= 3.0), libkf6coreaddons6 (>= 6.0.0), libkf6crash6 (>= 6.0.0), libkf6parts6 (>= 6.0.0), libkpmcore12 (>= 24.05.2), libparted2t64 (>= 3.1), libpwquality1 (>= 1.1.0), libpython3.13 (>= 3.13.0~rc3), libqt6core6t64 (>= 6.8.2), libqt6dbus6 (>= 6.4.0), libqt6gui6 (>= 6.8.2), libqt6network6 (>= 6.1.2), libqt6qml6 (>= 6.6.0), libqt6quick6 (>= 6.6.0), libqt6quickwidgets6 (>= 6.6.0), libqt6svg6 (>= 6.6.0), libqt6widgets6 (>= 6.7.2), libqt6xml6 (>= 6.6.0), libstdc++6 (>= 14), libyaml-cpp0.8 (>= 0.8.0+dfsg-7)
+Recommends: btrfs-progs, squashfs-tools
+Breaks: calamares-extensions (<< 3.3.12-1)
+Replaces: calamares-extensions (<< 3.3.12-1)
+Filename: pool/main/c/calamares/calamares_3.3.14-1kernora1_amd64.deb
+Size: 4235852
+MD5sum: acd1f052f83844367da6cf5b492e5c80
+SHA1: 9c393f0511ae63a5b97e197ea103f021b79b535b
+SHA256: bbe50891850e7c899cdf4a58fa43f54ad1ff73bc8f974a3317920f34aa455ef8
+Section: utils
+Priority: optional
+Homepage: https://github.com/calamares/calamares
+Description: distribution-independent installer framework
+ Calamares is a distribution-independent installer framework.
+ .
+ It provides a graphical installer that can be used with nearly
+ any distribution. This package is suitable for live media on
+ Debian-based systems, and won't be of any particular use on
+ an already installed system.
+ .
+ You will likely want to provide your own config files to match
+ your distribution, reading the Calamares documentation will guide
+ you through that process.
+
+Package: kernora-apps
+Version: 1.1.20
+Architecture: amd64
+Maintainer: Kernora Developers <developers@kernora.invalid>
+Installed-Size: 2396
+Depends: kio6, libc6 (>= 2.34), libcrypt1 (>= 1:4.1.0), libkf6configcore6 (>= 6.0.0), libkf6coreaddons6 (>= 6.0.0), libkf6dbusaddons6 (>= 6.0.0), libkf6i18n6 (>= 6.0.0), libkf6i18nqml6 (>= 6.8.0), libkf6kiocore6 (>= 6.0.0), libkf6kiofilewidgets6 (>= 6.0.0), libkf6kiogui6 (>= 6.0.0), libkf6kiowidgets6 (>= 6.0.0), libkf6notifications6 (>= 6.0.0), libkf6screen8 (>= 4:6.1.0), libkf6service-bin, libkf6service6 (>= 6.0.0), libkf6windowsystem6 (>= 6.0.0), libkscreen-bin, libpackagekitqt6-1 (>= 1.1.1), libqt6core6t64 (>= 6.8.2), libqt6dbus6 (>= 6.8.2), libqt6gui6 (>= 6.1.2), libqt6network6 (>= 6.4.0), libqt6qml6 (>= 6.6.0), libqt6quick6 (>= 6.6.0), libqt6quickcontrols2-6 (>= 6.6.0), libqt6widgets6 (>= 6.1.2), libstdc++6 (>= 5), accountsservice, kde-cli-tools, kernora-desktop (>= 1.4.18), libarchive-tools, packagekit, plasma-nm, plasma-pa, plasma-workspace, powerdevil, qml6-module-org-kde-bluezqt, qml6-module-org-kde-kirigami, qml6-module-org-kde-notifications, qml6-module-org-kde-syntaxhighlighting, qml6-module-qt-labs-folderlistmodel, qml6-module-qtmultimedia, qml6-module-qtquick-controls, qml6-module-qtquick-dialogs, qml6-module-qtquick-layouts, qml6-module-qtquick-shapes, xdg-desktop-portal, xdg-desktop-portal-kde
+Filename: pool/main/k/kernora-apps/kernora-apps_1.1.20_amd64.deb
+Size: 746076
+MD5sum: 23705ce62cec84c081e1ea15233900ba
+SHA1: 0c79450e1980acdca9152dc90b04f16afa31ff39
+SHA256: b0959d3dd1051aa274bf7371923d782f52df69f2e5c6bf4704719a4a18b80096
+Section: kde
+Priority: optional
+Description: Kernora OS applications
+ The everyday applications of Kernora OS, drawn in its Material 3 design:
+ .
+  * Settings: network, Bluetooth, display, sound, notifications, wallpaper
+    and style, apps, power, input devices, accessibility, privacy, the
+    account, date and language, updates and information about the system;
+  * Files, Text Editor, Photos, Media Player, Calculator and Screenshot;
+  * Welcome, the first-run introduction;
+  * the file chooser: every program's open and save dialogs, served to
+    the session through the desktop portal.
+  * update notifications: a message when updates are ready to install and
+    when installed ones need a restart.
+ .
+ It also carries org.kernora.system, the Qt Quick module through which the
+ applications read and change the system.
+
+Package: kernora-archive
+Version: 1.0
+Architecture: all
+Maintainer: Kernora Developers <developers@kernora.invalid>
+Installed-Size: 28
+Depends: debian-archive-keyring, unattended-upgrades
+Filename: pool/main/k/kernora-archive/kernora-archive_1.0_all.deb
+Size: 3288
+MD5sum: 18fc3ba623dc5dfddb9d348b8f4b7b77
+SHA1: 719c3dd03456003b4e21e780ee60a956261e3ab8
+SHA256: b6c8cb34e4273da8dd1a7418bb9d0d61e4f6b84a7736ba6dd49451abd4bb9144
+Section: admin
+Priority: optional
+Description: Kernora OS package archives and updates
+ Sets up APT for Kernora OS: the Debian archive with its security updates,
+ the Kernora package archive and its signing key, and a preference for
+ Kernora's own builds over Debian packages of the same name.
+ .
+ Security updates from Debian, kernel updates among them, and LibreWolf
+ updates are installed automatically once a day. Other updates are offered
+ in Settings > Updates. Nothing is updated in the live session.
+
+Package: kernora-base
+Version: 1.2
+Architecture: all
+Maintainer: Kernora Developers <developers@kernora.invalid>
+Installed-Size: 9
+Depends: base-files (= 13.8+deb13u6+kernora1), kernora-archive (>= 1.0)
+Filename: pool/main/k/kernora-base/kernora-base_1.2_all.deb
+Size: 2308
+MD5sum: fcaea050d8ea0e6fdb844aaaa68d4fba
+SHA1: 5c6a6695833bd4202ecc30a8d2a27d7a3b63f88b
+SHA256: 48cf8093e2cabe07b419bc4a8dbd6d5ac8b70e022dcd10589147ebb9680a18fa
+Section: metapackages
+Priority: optional
+Description: Kernora OS base-system metapackage
+ This package depends on the Kernora-specific packages required by every
+ Kernora OS installation: the system identity and the package archives
+ that keep it updated.
+ .
+ It contains no programs or configuration files. Removing it does not remove
+ its dependencies, but may prevent future base-system additions from being
+ installed automatically.
+
+Package: kernora-calamares
+Source: kernora-desktop
+Version: 1.4.18
+Architecture: all
+Maintainer: Kernora Developers <developers@kernora.invalid>
+Installed-Size: 496
+Depends: calamares (>= 3.3.14-1kernora1), kernora-desktop (= 1.4.18), pkexec, polkitd
+Filename: pool/main/k/kernora-desktop/kernora-calamares_1.4.18_all.deb
+Size: 239996
+MD5sum: ec256c0eb2a13288f96ac3ea85db594c
+SHA1: 3019fe91d5cc8c03792f86cbcc815ec5d8ae37e8
+SHA256: e6cee0d74e9215861afa6d6362994e3234083441ebdcbecba141e9b9fc3fa607
+Section: x11
+Priority: optional
+Description: Kernora OS installer configuration
+ This package configures Calamares to install Kernora OS from the live image
+ onto a disk: the module sequence, the target clean-up of live-only settings
+ and the Kernora installer branding.
+ .
+ The installer removes this package while installing, which leaves Calamares
+ without a configuration on the installed system.
+
+Package: kernora-desktop
+Version: 1.4.18
+Architecture: all
+Maintainer: Kernora Developers <developers@kernora.invalid>
+Installed-Size: 56400
+Depends: dconf-gsettings-backend | gsettings-backend, breeze-gtk-theme, fonts-roboto-unhinted, kwin-common, plasma-desktop, plasma-workspace, qml6-module-org-kde-desktop, qml6-module-org-kde-kirigami, qml6-module-qtquick-effects, qml6-module-qt-labs-folderlistmodel, qml6-module-qtquick-layouts, qml6-module-qtquick-shapes, qml6-module-qtquick-templates, qt-style-kvantum
+Recommends: plymouth, plymouth-label
+Filename: pool/main/k/kernora-desktop/kernora-desktop_1.4.18_all.deb
+Size: 3533784
+MD5sum: 4b224b4f445442d286e0fdaeac10f2ed
+SHA1: 765dcc83ff682f2d1b9462b68cefc60c9272605a
+SHA256: 819b61f5f89934519881d85257146c77be9f89d0abcfd8ebda2e170e9c2f69c3
+Section: x11
+Priority: optional
+Description: Kernora OS desktop appearance and shell
+ This package carries the Kernora OS desktop: a complete Material 3 design
+ for Plasma, generated from one seed colour.
+ .
+  * the Kernora Dark and Light colour schemes and the Kernora Plasma theme,
+    drawn from the same Material 3 palette;
+  * the Kernora icon theme, drawn from Material Symbols Rounded;
+  * Kernora Launcher, an application menu with search, and Kernora Quick
+    Settings, the status area and the shade pulled up from the panel;
+  * Kernora Shapes, a live wallpaper of Material 3 Expressive shapes;
+  * the Kernora Kvantum theme, which gives every Qt widget -- menus,
+    buttons, fields, lists -- the same Material shapes and palette;
+  * a Qt Quick Controls style for System Settings and other QML applications,
+    and the Kernora window decoration;
+  * the splash and the look-and-feel package that lays out the floating
+    panel and selects all of the above.
+ .
+ It sets that look-and-feel as the system-wide default, so a freshly
+ created account starts with the Kernora desktop instead of the Plasma one.
+
+Package: polkit-kde-agent-1
+Version: 4:6.3.6-1kernora1
+Architecture: amd64
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 449
+Depends: polkitd, qml6-module-org-kde-kirigami, qml6-module-qtqml, qml6-module-qtqml-workerscript, qml6-module-qtquick, qml6-module-qtquick-controls, qml6-module-qtquick-layouts, libc6 (>= 2.34), libkf6coreaddons6 (>= 6.10.0~), libkf6crash6 (>= 6.10.0~), libkf6dbusaddons6 (>= 6.10.0~), libkf6i18n6 (>= 6.10.0~), libkf6i18nqml6 (>= 6.10.0~), libkf6notifications6 (>= 6.10.0~), libkf6windowsystem6 (>= 6.10.0~), libpolkit-qt6-1-1 (>= 0.200.0), libqt6core6t64 (>= 6.8.2), libqt6dbus6 (>= 6.7.0~), libqt6gui6 (>= 6.7.0~), libqt6qml6 (>= 6.7.0~), libqt6quick6 (>= 6.7.0~), libqt6widgets6 (>= 6.7.0~), libstdc++6 (>= 5)
+Provides: polkit-1-auth-agent
+Filename: pool/main/p/polkit-kde-agent-1/polkit-kde-agent-1_6.3.6-1kernora1_amd64.deb
+Size: 70908
+MD5sum: cceb4aa155f032d4db3397250cb444ac
+SHA1: 5b61a5f1cf0ff15bfa561b3b9d5f724ad3f3e5c2
+SHA256: 1a0840ca68d75b8b518619f8df78df7928b28dfd29ede736096c1c1247a71440
+Section: kde
+Priority: optional
+Homepage: https://invent.kde.org/plasma/polkit-kde-agent-1
+Description: KDE dialogs for PolicyKit
+ PolicyKit is an application-level toolkit for defining and handling the policy
+ that allows unprivileged processes to speak to privileged processes.
+ .
+ It is a framework for centralizing the decision making process with respect to
+ granting access to privileged operations (like calling the HAL Mount() method)
+ for unprivileged (desktop) applications.
+ .
+ PolicyKit-Kde provides a D-Bus session bus service that is used to
+ bring up authentication dialogs used for obtaining privileges.
+

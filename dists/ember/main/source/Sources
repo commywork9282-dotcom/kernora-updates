@@ -1,0 +1,179 @@
+Format: 3.0 (native)
+Package: base-files
+Binary: base-files
+Architecture: any
+Version: 13.8+deb13u6+kernora1
+Priority: optional
+Section: unknown
+Maintainer: Kernora Developers <developers@kernora.invalid>
+Standards-Version: 4.7.2
+Build-Depends: debhelper-compat (= 13), debhelper (>= 13.10~)
+Package-List:
+ base-files deb admin required arch=any essential=yes
+Directory: pool/main/b/base-files
+Checksums-Sha1:
+ 86a2f08a0aefe62b2cf12bb35f45b560621a8d84 700 base-files_13.8+deb13u6+kernora1.dsc
+ 6f7146ff54084db0715acd068bf7c4eeb88386e7 69084 base-files_13.8+deb13u6+kernora1.tar.xz
+Checksums-Sha256:
+ 9af7c52b693b72f831dd511ffc7dafd768db85d2856afc55bdfb2eba821620dd 700 base-files_13.8+deb13u6+kernora1.dsc
+ d0150dc24c672215e15647dc323415f17cbc4058f0460f9f4f31b5513017837b 69084 base-files_13.8+deb13u6+kernora1.tar.xz
+Files:
+ 991359b79bd58e5a739f8b7c4eaa5310 700 base-files_13.8+deb13u6+kernora1.dsc
+ 81401980c5a6c1ad327e2a734a3297dd 69084 base-files_13.8+deb13u6+kernora1.tar.xz
+Original-Maintainer: Santiago Vila <sanvila@debian.org>
+
+Format: 3.0 (quilt)
+Package: calamares
+Binary: calamares
+Architecture: linux-any
+Version: 3.3.14-1kernora1
+Priority: optional
+Section: unknown
+Maintainer: Jonathan Carter <jcc@debian.org>
+Homepage: https://github.com/calamares/calamares
+Standards-Version: 4.7.0
+Vcs-Browser: https://salsa.debian.org/qt-kde-team/extras/calamares
+Vcs-Git: https://salsa.debian.org/qt-kde-team/extras/calamares.git
+Build-Depends: cmake, cryptsetup <!nocheck>, debhelper-compat (= 13), extra-cmake-modules, gettext, libkf6config-dev, libkf6coreaddons-dev, libkf6crash-dev, libkf6i18n-dev, libkf6iconthemes-dev, libkf6kio-dev, libkf6parts-dev, libkf6service-dev, libkf6solid-dev, libkpmcore-dev, libparted-dev, libpolkit-qt6-1-dev, libpwquality-dev, libboost-python-dev, libqt6svg6-dev, libyaml-cpp-dev, os-prober <!nocheck>, pkg-config, pkg-kde-tools, pkexec, python3:any, qml-module-qtquick-layouts, qml-module-qtquick-privatewidgets, qml-module-qtquick-window2, qml-module-qtquick2, qt6-base-dev
+Package-List:
+ calamares deb utils optional arch=linux-any
+Directory: pool/main/c/calamares
+Checksums-Sha1:
+ 126b05e91ebe7343fb8160e799c99545c3598887 1577 calamares_3.3.14-1kernora1.dsc
+ fbe92e1c6b44c0966d416fe853f57e4cd2c08b7b 4817871 calamares_3.3.14.orig.tar.gz
+ 6b03ee41c056b04e60046d00b95f4442bd5dbcaa 15660 calamares_3.3.14-1kernora1.debian.tar.xz
+Checksums-Sha256:
+ c40513e3df30a1e22c77bb8f0df7439f92e2d9c084f62c981416a4ab1bfdfbe3 1577 calamares_3.3.14-1kernora1.dsc
+ fa158d679bb9384beaf4a2f821be6da63500b13631ad14acec9bb446565dad4a 4817871 calamares_3.3.14.orig.tar.gz
+ 953ab9b70d70194e6fdbda1bcc8dc59d9109c54919a46bc91b302d6d29074a38 15660 calamares_3.3.14-1kernora1.debian.tar.xz
+Files:
+ f16a35f1b3b30e5398526a7b6a570741 1577 calamares_3.3.14-1kernora1.dsc
+ f6ff212c975bb8dd30a280f5d0096880 4817871 calamares_3.3.14.orig.tar.gz
+ 82b21324ad66268ab954d39592f06d4b 15660 calamares_3.3.14-1kernora1.debian.tar.xz
+
+Format: 3.0 (native)
+Package: kernora-apps
+Binary: kernora-apps
+Architecture: amd64
+Version: 1.1.20
+Priority: optional
+Section: unknown
+Maintainer: Kernora Developers <developers@kernora.invalid>
+Standards-Version: 4.7.4
+Build-Depends: debhelper-compat (= 13), cmake, extra-cmake-modules, gettext, libcrypt-dev, libkf6config-dev, libkf6coreaddons-dev, libkf6dbusaddons-dev, libkf6i18n-dev, libkf6kio-dev, libkf6notifications-dev, libkf6service-dev, libkf6windowsystem-dev, libkscreen-dev, libpackagekitqt6-dev, pkgconf, qt6-base-dev, qt6-declarative-dev
+Package-List:
+ kernora-apps deb kde optional arch=amd64
+Directory: pool/main/k/kernora-apps
+Checksums-Sha1:
+ 41a480a70210cd3861be14fb670990be6477eb4c 858 kernora-apps_1.1.20.dsc
+ 49292d5f309d1e55b9526b452b256551a6cb7d37 143088 kernora-apps_1.1.20.tar.xz
+Checksums-Sha256:
+ f3dd155c453f70e44d5e5a51093f6b0b3a74ab4fca8a333a65b823f945302cd2 858 kernora-apps_1.1.20.dsc
+ f0216f678a41c391fcaf60ebb7366aedba78b1d750d6f19e9888a7902db6638f 143088 kernora-apps_1.1.20.tar.xz
+Files:
+ df1cffea798fe218dc25626243b9efe8 858 kernora-apps_1.1.20.dsc
+ 2d3c4fc48121c985b4a53769aa49fc61 143088 kernora-apps_1.1.20.tar.xz
+
+Format: 3.0 (native)
+Package: kernora-archive
+Binary: kernora-archive
+Architecture: all
+Version: 1.0
+Priority: optional
+Section: unknown
+Maintainer: Kernora Developers <developers@kernora.invalid>
+Standards-Version: 4.7.4
+Build-Depends: debhelper-compat (= 13)
+Package-List:
+ kernora-archive deb admin optional arch=all
+Directory: pool/main/k/kernora-archive
+Checksums-Sha1:
+ b292c7c7628d2da33c5ee72d7922426ae5c05d9e 562 kernora-archive_1.0.dsc
+ 8af3b3055e33704eb1fc4389aa6363e9032ec5c3 2456 kernora-archive_1.0.tar.xz
+Checksums-Sha256:
+ 1e5fe51cfdfd39e97e7c5a028586e853937b79342782051208a8181968c19f71 562 kernora-archive_1.0.dsc
+ 4c2a1c4e49c664130d8d70d33193db194d4b6c3d2cfe9d60840c0585b797be63 2456 kernora-archive_1.0.tar.xz
+Files:
+ bd15687d461545dad8532c96eafb51c5 562 kernora-archive_1.0.dsc
+ 4c03bb419e67994712a6e2fd46811922 2456 kernora-archive_1.0.tar.xz
+
+Format: 3.0 (native)
+Package: kernora-base
+Binary: kernora-base
+Architecture: all
+Version: 1.2
+Priority: optional
+Section: unknown
+Maintainer: Kernora Developers <developers@kernora.invalid>
+Standards-Version: 4.7.4
+Build-Depends: debhelper-compat (= 13)
+Package-List:
+ kernora-base deb metapackages optional arch=all
+Directory: pool/main/k/kernora-base
+Checksums-Sha1:
+ 5c64115cd989c7a9088284db81fde96e4dfa55a7 551 kernora-base_1.2.dsc
+ f0230ef7366dd4cd8c116238ce374d7780195dd5 1676 kernora-base_1.2.tar.xz
+Checksums-Sha256:
+ 0d188c0b4048481f69ec482216e38dc013da90fc7c8933014602c538b6ff6cd0 551 kernora-base_1.2.dsc
+ 92c9a3e8a975ecaa4bd52b5b983ca12e88e600942a4654870c3f3537c713090c 1676 kernora-base_1.2.tar.xz
+Files:
+ be4475a83dbc6c8336e070fcd3db05b0 551 kernora-base_1.2.dsc
+ aa81a222e5b5e78ef2039cdfd83c10e6 1676 kernora-base_1.2.tar.xz
+
+Format: 3.0 (native)
+Package: kernora-desktop
+Binary: kernora-desktop, kernora-calamares
+Architecture: all
+Version: 1.4.18
+Priority: optional
+Section: unknown
+Maintainer: Kernora Developers <developers@kernora.invalid>
+Standards-Version: 4.7.4
+Build-Depends: debhelper-compat (= 13), fonts-roboto-unhinted, grub-common, librsvg2-bin, python3
+Package-List:
+ kernora-calamares deb x11 optional arch=all
+ kernora-desktop deb x11 optional arch=all
+Directory: pool/main/k/kernora-desktop
+Checksums-Sha1:
+ 3a74a1e76ca7f9b23a6f1328b4d55b2c1f08e735 701 kernora-desktop_1.4.18.dsc
+ e19c853c376604674304a28dad2dd77d147060bd 590100 kernora-desktop_1.4.18.tar.xz
+Checksums-Sha256:
+ 79384a7a44da8da28bee78084544040d3190c3a0af52526dde5a2ad8addb76fb 701 kernora-desktop_1.4.18.dsc
+ 09c3be6d62ff059a515484d560fb42653ba27f164399ebaba6df9808ede408ec 590100 kernora-desktop_1.4.18.tar.xz
+Files:
+ 95a50543d3a80e4f92f86e6659efc650 701 kernora-desktop_1.4.18.dsc
+ 06d2c3a25984fda892e0f6b1f4d7f0d6 590100 kernora-desktop_1.4.18.tar.xz
+
+Format: 3.0 (quilt)
+Package: polkit-kde-agent-1
+Binary: polkit-kde-agent-1
+Architecture: any
+Version: 4:6.3.6-1kernora1
+Priority: optional
+Section: unknown
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Uploaders: Aurélien COUDERC <coucouf@debian.org>, Patrick Franz <deltaone@debian.org>, Scarlett Moore <sgmoore@kde.org>
+Homepage: https://invent.kde.org/plasma/polkit-kde-agent-1
+Standards-Version: 4.7.2
+Vcs-Browser: https://salsa.debian.org/qt-kde-team/kde/polkit-kde-agent-1
+Vcs-Git: https://salsa.debian.org/qt-kde-team/kde/polkit-kde-agent-1.git
+Build-Depends: debhelper-compat (= 13), dh-sequence-kf6, cmake (>= 3.16~), extra-cmake-modules (>= 6.10.0~), gettext, libkf6coreaddons-dev (>= 6.10.0~), libkf6crash-dev (>= 6.10.0~), libkf6dbusaddons-dev (>= 6.10.0~), libkf6i18n-dev (>= 6.10.0~), libkf6notifications-dev (>= 6.10.0~), libkf6windowsystem-dev (>= 6.10.0~), libpolkit-qt6-1-dev (>= 0.200.0~), libxkbcommon-dev, qt6-base-dev (>= 6.7.0~), qt6-declarative-dev (>= 6.7.0~)
+Package-List:
+ polkit-kde-agent-1 deb kde optional arch=any
+Directory: pool/main/p/polkit-kde-agent-1
+Checksums-Sha1:
+ afd853f6487b45568cb136678d6f73bd717f1bff 1930 polkit-kde-agent-1_6.3.6-1kernora1.dsc
+ c1cab06794d4f4938dbd27210bb48b21a2c0ed9e 57696 polkit-kde-agent-1_6.3.6.orig.tar.xz
+ 3f8f219dc5b6286f30ca3e1eb078d5054f281497 488 polkit-kde-agent-1_6.3.6.orig.tar.xz.asc
+ 50c13b8f0dc739f9eda2ba9cec815e0eaa5c6a38 21760 polkit-kde-agent-1_6.3.6-1kernora1.debian.tar.xz
+Checksums-Sha256:
+ 467fda9f0bc24ed2bf2b3c99ef99010476b3be0226ae992729cb357c57851f1f 1930 polkit-kde-agent-1_6.3.6-1kernora1.dsc
+ d48dcca9df143da737a970c53641a3542e2d26528c6410ebbbcfef87e49d2678 57696 polkit-kde-agent-1_6.3.6.orig.tar.xz
+ 9f6d759ade6f8f99fad96a45059275ed6f3ea8351e90d35dadfbab8beb27333d 488 polkit-kde-agent-1_6.3.6.orig.tar.xz.asc
+ e265580408a3b65c7d771efdbcd1d21600ad17a3ada37a7886b1d41794d7bb1a 21760 polkit-kde-agent-1_6.3.6-1kernora1.debian.tar.xz
+Files:
+ c986a86b32ec776d45fca87314e072ba 1930 polkit-kde-agent-1_6.3.6-1kernora1.dsc
+ 33c9739b82878a9fcd56b2ea73e869a8 57696 polkit-kde-agent-1_6.3.6.orig.tar.xz
+ 8c3589eab2cb30ed0e3a20879dd29233 488 polkit-kde-agent-1_6.3.6.orig.tar.xz.asc
+ dcfcde4b181f7c0f3b051f667b9385fa 21760 polkit-kde-agent-1_6.3.6-1kernora1.debian.tar.xz
+

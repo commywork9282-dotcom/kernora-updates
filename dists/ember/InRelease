@@ -1,0 +1,29 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Origin: Kernora OS
+Label: Kernora OS
+Suite: ember
+Codename: ember
+Version: 1
+Date: Fri, 09 Oct 2026 18:58:58 +0000
+Architectures: amd64
+Components: main
+Description: Kernora OS package archive
+MD5Sum:
+ 330e4a5507245b0c4cbacc924c9a70a4            11491 main/binary-amd64/Packages
+ a28e00008565896cad7f5564ad816fe6             4420 main/binary-amd64/Packages.gz
+ 75927e61dc5f33d97d410df47495d419             9097 main/source/Sources
+ 22b07e41b77f1cbdb9e295782dd7b62a             3112 main/source/Sources.gz
+SHA256:
+ 52dd616f516e107c389da29be7811e7f5015408c9859ee928d1a05d8858f127a            11491 main/binary-amd64/Packages
+ c212ceb1fa46b0dab9f46ecd636737a9673395905c1ff00579410ff2a8a1cbfc             4420 main/binary-amd64/Packages.gz
+ 21ccc944e4186673e18a7ad8c1e498abb8ff54de133a050dc19f5ee063e608f5             9097 main/source/Sources
+ d2532a610ebbdf3643d7ff6bb9eb5ce844482b51ce8fe00466328b56d7c4c31c             3112 main/source/Sources.gz
+-----BEGIN PGP SIGNATURE-----
+
+iHUEARYIAB0WIQR27vvbDTcN8QYXRcOK1Rrm+g7wHAUCask5cgAKCRCK1Rrm+g7w
+HGoaAP97/p4JqW4NXF06Qbr+o9SdbDhx1X1VTlZj4gOzAFzNlgEA8zPU755bchJl
+2maUJvaKlMubOhu+kpPnEREEi+MaoAQ=
+=e0Qa
+-----END PGP SIGNATURE-----
