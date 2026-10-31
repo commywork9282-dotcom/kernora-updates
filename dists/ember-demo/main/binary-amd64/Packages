@@ -1,0 +1,90 @@
+Package: kernora-apps
+Version: 1.1.67
+Architecture: amd64
+Maintainer: Kernora Developers <developers@kernora.invalid>
+Installed-Size: 4266
+Depends: kio6, libappstreamqt3 (>= 1.0.5), libc6 (>= 2.35), libcrypt1 (>= 1:4.1.0), libflatpak0 (>= 1.10), libglib2.0-0t64 (>= 2.32.0), libkf6archive6 (>= 6.0.0), libkf6configcore6 (>= 6.0.0), libkf6coreaddons6 (>= 6.0.0), libkf6dbusaddons6 (>= 6.0.0), libkf6i18n6 (>= 6.0.0), libkf6i18nqml6 (>= 6.8.0), libkf6kiocore6 (>= 6.0.0), libkf6kiofilewidgets6 (>= 6.0.0), libkf6kiogui6 (>= 6.0.0), libkf6kiowidgets6 (>= 6.0.0), libkf6notifications6 (>= 6.0.0), libkf6screen8 (>= 4:6.1.0), libkf6service-bin, libkf6service6 (>= 6.0.0), libkf6windowsystem6 (>= 6.0.0), libkscreen-bin, libpackagekitqt6-1 (>= 1.1.1), libplasma6 (>= 6.1.0), libplasmaquick6 (>= 6.1.0), libqt6core6t64 (>= 6.8.2), libqt6dbus6 (>= 6.8.2), libqt6gui6 (>= 6.4.0), libqt6network6 (>= 6.7.2), libqt6qml6 (>= 6.6.0), libqt6quick6 (>= 6.6.0), libqt6quickcontrols2-6 (>= 6.6.0), libqt6svg6 (>= 6.6.0), libqt6widgets6 (>= 6.1.2), libstdc++6 (>= 5), accountsservice, appstream, flatpak, kde-cli-tools, kernora-archive (>= 1.2), kernora-base (>= 1.6), kernora-desktop (>= 1.4.56), kernora-quickshare (>= 1.0.1), ksystemstats, libarchive-tools, libksysguard-bin, packagekit, pkexec, qt6-image-formats-plugins, qt6-svg-plugins, plasma-nm, plasma-pa, plasma-workspace, powerdevil, qml6-module-org-kde-bluezqt, qml6-module-org-kde-kirigami, qml6-module-org-kde-kitemmodels, qml6-module-org-kde-ksysguard, qml6-module-org-kde-layershell, qml6-module-org-kde-notifications, qml6-module-org-kde-quickcharts, qml6-module-org-kde-syntaxhighlighting, qml6-module-qt-labs-folderlistmodel, qml6-module-qtmultimedia, qml6-module-qtquick-controls, qml6-module-qtquick-dialogs, qml6-module-qtquick-layouts, qml6-module-qtquick-shapes, xdg-desktop-portal, xdg-desktop-portal-kde
+Filename: pool-demo/main/k/kernora-apps/kernora-apps_1.1.67_amd64.deb
+Size: 1485332
+MD5sum: 636a3efc3c66e1b2bc80059c7de8b81a
+SHA1: 59fc3af5068b62a8c1e42a68951646d4c6323c0c
+SHA256: 1ec2c203a11312a61af576a521772af912aaec511bf6dc8afd73ce793d8e2744
+Section: kde
+Priority: optional
+Description: Kernora OS applications
+ The everyday applications of Kernora OS, drawn in its Material 3 design:
+ .
+  * Settings: network, Bluetooth, display, sound, notifications, wallpaper
+    and style, apps, power, input devices, accessibility, privacy, the
+    account, date and language, updates and information about the system;
+  * Store: find, install, remove and update Flathub and Debian apps;
+  * Files, Text Editor, Photos, Media Player, Calculator and Screenshot;
+  * Task Manager: running apps, background processes and live usage of
+    the processor, memory, graphics card, disk and network;
+  * Android App Installer: installs Android apps from APK files;
+  * Welcome, the first-run introduction;
+  * the file chooser: every program's open and save dialogs, served to
+    the session through the desktop portal.
+  * update notifications: a message when updates are ready to install and
+    when installed ones need a restart.
+ .
+ It also carries org.kernora.system, the Qt Quick module through which the
+ applications read and change the system, and org.kernora.shell, which the
+ desktop uses to open a widget's settings without leaving edit mode.
+
+Package: kernora-calamares
+Source: kernora-desktop
+Version: 1.4.57
+Architecture: all
+Maintainer: Kernora Developers <developers@kernora.invalid>
+Installed-Size: 509
+Depends: calamares (>= 3.3.14-1kernora2), kernora-desktop (= 1.4.57), pkexec, polkitd
+Filename: pool-demo/main/k/kernora-desktop/kernora-calamares_1.4.57_all.deb
+Size: 250068
+MD5sum: 01ff9d9ae0c74a8dd7dce53b0c720506
+SHA1: dedfe96ee78324d02d5e808d4157299174f6bead
+SHA256: fedac81020f1ec22671835d617697a973afbe25cef548b68dcd2fbea45af1e55
+Section: x11
+Priority: optional
+Description: Kernora OS installer configuration
+ This package configures Calamares to install Kernora OS from the live image
+ onto a disk: the module sequence, the target clean-up of live-only settings
+ and the Kernora installer branding.
+ .
+ The installer removes this package while installing, which leaves Calamares
+ without a configuration on the installed system.
+
+Package: kernora-desktop
+Version: 1.4.57
+Architecture: all
+Maintainer: Kernora Developers <developers@kernora.invalid>
+Installed-Size: 61215
+Depends: dconf-gsettings-backend | gsettings-backend, init-system-helpers (>= 1.52), breeze-gtk-theme, fonts-roboto-unhinted, kwin-common, plasma-desktop, plasma-workspace, qml6-module-org-kde-desktop, qml6-module-org-kde-kirigami, qml6-module-qtquick-effects, qml6-module-qt-labs-folderlistmodel, qml6-module-qtquick-layouts, qml6-module-qtquick-shapes, qml6-module-qtquick-templates, qt-style-kvantum
+Recommends: plymouth, plymouth-label
+Filename: pool-demo/main/k/kernora-desktop/kernora-desktop_1.4.57_all.deb
+Size: 4746308
+MD5sum: 99d95b3ca14254c15cd4b94acd72c809
+SHA1: 06ef5ef450834040eac20feaeb1270f5b7a815de
+SHA256: 66d9d919c0023bf47b4f26b54cd4ec4d69054d2908e3856f81e89aff76618d8b
+Section: x11
+Priority: optional
+Description: Kernora OS desktop appearance and shell
+ This package carries the Kernora OS desktop: a complete Material 3 design
+ for Plasma, generated from one seed colour.
+ .
+  * the Kernora Dark and Light colour schemes and the Kernora Plasma theme,
+    drawn from the same Material 3 palette;
+  * the Kernora icon theme, drawn from Material Symbols Rounded;
+  * Kernora Launcher, an application menu with search, and Kernora Quick
+    Settings, the status area and the shade pulled up from the panel;
+  * Kernora Shapes, a live wallpaper of Material 3 Expressive shapes;
+  * the Kernora Kvantum theme, which gives every Qt widget -- menus,
+    buttons, fields, lists -- the same Material shapes and palette;
+  * a Qt Quick Controls style for System Settings and other QML applications,
+    and the Kernora window decoration;
+  * the splash and the look-and-feel package that lays out the floating
+    panel and selects all of the above.
+ .
+ It sets that look-and-feel as the system-wide default, so a freshly
+ created account starts with the Kernora desktop instead of the Plasma one.
+

@@ -1,0 +1,19 @@
+Origin: Kernora OS
+Label: Kernora OS Demo
+Suite: ember-demo
+Codename: ember-demo
+Version: 1
+Date: Sat, 31 Oct 2026 20:42:17 +0000
+Architectures: amd64
+Components: main
+Description: Kernora OS demo updates
+MD5Sum:
+ 1f7ea8ece08bcb38d60b5cad7e0bd19b             6158 main/binary-amd64/Packages
+ 91de47d62a51e1bd77f97f02668c1544             2485 main/binary-amd64/Packages.gz
+ 10cab662a3584e263cee99cdd2deebf4             2273 main/source/Sources
+ 9ab030cefa1a50977dc147e2a646e627              973 main/source/Sources.gz
+SHA256:
+ 34ae34742a7d4b6e57912dac0beb481cc59a837b3f3c3ab7cbd9931dbe1a50f6             6158 main/binary-amd64/Packages
+ 3fe848dc3fab25d3d81a871154ae5854452d8176d4fc3657a8ddde1659a6b856             2485 main/binary-amd64/Packages.gz
+ d721494b6e53631eeee514b0b234e71e831bb8b78d5930cbaccfbbd4ddf1fc00             2273 main/source/Sources
+ 067895626fb6f38ade22caf04835268dc2dcffa894c8c9f452864443fa4755c8              973 main/source/Sources.gz

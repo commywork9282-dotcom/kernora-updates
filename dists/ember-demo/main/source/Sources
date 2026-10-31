@@ -1,0 +1,47 @@
+Format: 3.0 (native)
+Package: kernora-apps
+Binary: kernora-apps
+Architecture: amd64
+Version: 1.1.67
+Priority: optional
+Section: unknown
+Maintainer: Kernora Developers <developers@kernora.invalid>
+Standards-Version: 4.7.4
+Build-Depends: debhelper-compat (= 13), cmake, extra-cmake-modules, gettext, libcrypt-dev, libappstreamqt-dev, libflatpak-dev, libkf6archive-dev, libkf6config-dev, libkf6coreaddons-dev, libkf6dbusaddons-dev, libkf6i18n-dev, libkf6kio-dev, libkf6notifications-dev, libkf6service-dev, libkf6windowsystem-dev, libkscreen-dev, libplasma-dev, libpackagekitqt6-dev, pkgconf, qt6-base-dev, qt6-declarative-dev, qt6-svg-dev
+Package-List:
+ kernora-apps deb kde optional arch=amd64
+Directory: pool-demo/main/k/kernora-apps
+Checksums-Sha1:
+ 54372ec968d62fd57b3f2003655d08eb6e4a723e 941 kernora-apps_1.1.67.dsc
+ a977c309f813a27e64c5a8f9738c1c873ff4e656 234548 kernora-apps_1.1.67.tar.xz
+Checksums-Sha256:
+ 702aa8f73635c44982d59e343ebd3ad5fbfd5f042dd707e16dc116e76f7e1f5f 941 kernora-apps_1.1.67.dsc
+ fe55f12a95b0496ccabf4ce812f428861ec05cf24b0fb051ac0a4234c780183b 234548 kernora-apps_1.1.67.tar.xz
+Files:
+ dd19e58fea9dfecadcd72d1dad172ab1 941 kernora-apps_1.1.67.dsc
+ 8bb758f6887cce04c3d1b45a604ae02e 234548 kernora-apps_1.1.67.tar.xz
+
+Format: 3.0 (native)
+Package: kernora-desktop
+Binary: kernora-desktop, kernora-calamares
+Architecture: all
+Version: 1.4.57
+Priority: optional
+Section: unknown
+Maintainer: Kernora Developers <developers@kernora.invalid>
+Standards-Version: 4.7.4
+Build-Depends: debhelper-compat (= 13), fonts-roboto-unhinted, grub-common, librsvg2-bin, openssl, python3
+Package-List:
+ kernora-calamares deb x11 optional arch=all
+ kernora-desktop deb x11 optional arch=all
+Directory: pool-demo/main/k/kernora-desktop
+Checksums-Sha1:
+ e09a00f4c615edf289199430c50d3fa2006d4916 710 kernora-desktop_1.4.57.dsc
+ f02a3214b604415fcdaf9fb08bb561e79bd41688 702064 kernora-desktop_1.4.57.tar.xz
+Checksums-Sha256:
+ 4f48d597946598c04295975cc9cdf0dcd0df350bb6e0121938b2cd25b8d7089d 710 kernora-desktop_1.4.57.dsc
+ e7d667db897e7b9c8278dd9085449dfc9b1eae09c42ca5d113cc3921f9d28358 702064 kernora-desktop_1.4.57.tar.xz
+Files:
+ 584b67563fb4065a847ac6c9178aa6af 710 kernora-desktop_1.4.57.dsc
+ ff5c405af640595534d9d93c993e80d7 702064 kernora-desktop_1.4.57.tar.xz
+
