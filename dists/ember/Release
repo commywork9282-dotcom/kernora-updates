@@ -1,0 +1,19 @@
+Origin: Kernora OS
+Label: Kernora OS
+Suite: ember
+Codename: ember
+Version: 1
+Date: Fri, 20 Nov 2026 22:01:16 +0000
+Architectures: amd64
+Components: main
+Description: Kernora OS package archive
+MD5Sum:
+ 68b906095609fe5c01bc4d09adfb9318            17316 main/binary-amd64/Packages
+ 6eb055c3aba7f80cc55642b8be3bd6cc             6582 main/binary-amd64/Packages.gz
+ 5a361907c0de1d6af28f6739baaf292d            13344 main/source/Sources
+ 8fabe89a6e2412bb8533ba467e06e23c             4276 main/source/Sources.gz
+SHA256:
+ c5c1ba67d1c125a4dde2671aa0c9cc99cb06a1ee89919bab047f7eb7482c4fa8            17316 main/binary-amd64/Packages
+ 6dc2779ff71c94a5edee48462fafd23b5d3850f4090c04603b52504db347a232             6582 main/binary-amd64/Packages.gz
+ 84db53fec650fd6c194eb5d53bc5efb90fc987ee75c7927de89be8ff7b2382fb            13344 main/source/Sources
+ 9715b8c6c57f50c88d5db565d445c61d27b9bd4d75de30ef9c776898e0c27aed             4276 main/source/Sources.gz
